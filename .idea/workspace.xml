@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c570bf4d-5d5e-4e3b-8d9d-0ba976c5ae8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Audio/song1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/SceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/StartAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/lifedobesad/start.fxml" afterDir="false" />
+    <list default="true" id="c570bf4d-5d5e-4e3b-8d9d-0ba976c5ae8d" name="Changes" comment="Start of Life do be sad">
+      <change afterPath="$PROJECT_DIR$/Audio/Gone Forever.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/SceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/StartAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/StartAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/lifedobesad/start.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/lifedobesad/start.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Pushe/IdeaProjects/TestingorReplit/Life do be Sad/Audio",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -53,6 +43,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad\Audio" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad\Audio" />
       <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad" />
@@ -90,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1704770593704</updated>
     </task>
+    <task id="LOCAL-00001" summary="Start of Life do be sad">
+      <created>1704775300669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704775300669</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start of Life do be sad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start of Life do be sad" />
   </component>
 </project>
