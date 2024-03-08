@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c570bf4d-5d5e-4e3b-8d9d-0ba976c5ae8d" name="Changes" comment="Start of Life do be sad">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/Act1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/lifedobesad/arc1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/lifedobesad/art1Animation.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/SceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/StartAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/StartAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/Act1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lifedobesad/Act1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/Pushe/IdeaProjects/TestingorReplit/Life do be Sad/img",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pushe/IdeaProjects/TestingorReplit/Life do be Sad/img&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad\img" />
@@ -59,10 +55,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad\src\main\resources" />
+      <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad\src\main\Images" />
       <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad\img" />
       <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad" />
       <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad\Audio" />
-      <recent name="C:\Users\Pushe\IdeaProjects\TestingorReplit\Life do be Sad\src\main\java" />
     </key>
   </component>
   <component name="RunManager">
@@ -108,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709608907289</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Start of Life do be sad">
+      <created>1709681463696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709681463696</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Start of Life do be sad">
+      <created>1709681475136</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709681475136</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

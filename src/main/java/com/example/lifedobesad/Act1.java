@@ -6,7 +6,10 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-
+import javafx.animation.Timeline;
+import javafx.util.Duration;
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -19,7 +22,7 @@ public class Act1 implements Initializable {
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
         delay(2000, () -> playAct1());
-        delay(2000, () -> switchCostumes(10));
+        delay(100, () -> switchCostumes());
     }
 
     @FXML
@@ -32,26 +35,27 @@ public class Act1 implements Initializable {
         }
     }
 
-    private void switchCostumes(int time) {
+    private void switchCostumes() {
         String[] costumes = {
                 "/costume1.png",
                 "/costume3.png",
                 "/costume2.png",
                 "/costume4.png"
         };
-        for(int i = 0; i < time; i++) {
+
+        Timeline timeline = new Timeline();
+        double totalDuration = costumes.length * 0.1;
             for(int k = 0; k < costumes.length; k++ ) {
-                Image costu = new Image(costumes[k]);
-                jakyView.setImage(costu);
-                System.out.println(k);
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e) {
-                    // Handle interrupted exception
-                    e.printStackTrace();
-                }
+                int finalK = k;
+                double frameTime = (k + 1) * totalDuration / costumes.length;;
+                KeyFrame keyFrame = new KeyFrame(Duration.seconds(frameTime), event -> {
+                    Image costume = new Image(costumes[finalK]);
+                    jakyView.setImage(costume);
+                });
+                timeline.getKeyFrames().add(keyFrame);
             }
-        }
+        timeline.setCycleCount(5);
+        timeline.play();
     }
     //Credits to Dave8 for this delay method:
     // https://stackoverflow.com/questions/26454149/make-javafx-wait-and-continue-with-code
